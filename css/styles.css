@@ -1,9 +1,9 @@
-/*html, body{
+html, body{
   height:100%;
   width:100%;
   margin:0;
   padding:0;
-}*/
+}
 
 #movie_preview{
  width: 100%;   
@@ -14,8 +14,8 @@
 .scoreUp {
   float: left;
   /*border: 2px solid black;*/
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   padding-top: 20px;
   color: white;
   font-size: 35px;
@@ -25,8 +25,8 @@
 .timer {
   float: right;
   /*border: 2px solid black;*/
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   background: #bf2441;
   color: white;
   font-size: 35px;
@@ -34,7 +34,7 @@
 }
 
 #concession {
-    margin-left: 75px;
+    margin-left: 40px;
   margin-top: 10px;
   /*margin: 5px;*/
   height: 50px;
@@ -43,6 +43,7 @@
 }
 
 #movieSelect{
+	
   width: 200px;
 }
 
@@ -61,21 +62,22 @@ background-color: #b4ea88;
 }
 
 .container{
-  height:260px;
+  height:240px;
   width:100%;
   overflow:hidden;
   position:relative;
 }
 
 .snack_loader{
-  height: 50px;
+  height: 40px;
   width: 100%;
+  margin-top:30px;
  /* border: 1px solid black;*/
 }
 
 img{
   position: absolute;
-  height:300px;
+  height:240px;
   width:100%;
   opacity: .5;
   animation: shake 1s infinite;
@@ -117,7 +119,7 @@ img{
   height: 45px;
   width: 51.5px;
  /* background: white;*/
-  background-image: url(/img/soda.svg);
+  background-image: url(../img/soda.svg);
    background-repeat: no-repeat;
 }
 
@@ -128,7 +130,7 @@ img{
   height: 45px;
   width: 51.5px;
  /* background: white;*/
-  background-image: url(/img/popcorn.svg);
+  background-image: url(../img/popcorn.svg);
   background-repeat: no-repeat;
 }
 
@@ -139,7 +141,7 @@ img{
   height: 45px;
   width: 51.5px;
   /*background: white;*/
-  background-image: url(/img/peanut.svg);
+  background-image: url(../img/peanut.svg);
    background-repeat: no-repeat;
 }
 
@@ -150,7 +152,7 @@ img{
   height: 45px;
   width: 51.5px;
  /* background: white;*/
-  background-image: url(/img/hot_dog.svg);
+  background-image:url(../img/hot_dog.svg);
    background-repeat: no-repeat;
 }
 
@@ -161,10 +163,14 @@ img{
   height: 45px;
   width: 51.5px;
   /*background: white;*/
-  background-image: url(/img/candy.svg);
+  background-image: url(../img/candy.svg);
    background-repeat: no-repeat;
 }
 
+
+.response{
+	margin-top: -30px;
+}
 
 
 
@@ -210,7 +216,7 @@ ul>li{
 }
 
 .middle{
-  height:360px;
+  height:240px;
   background-color:#999;
   position:absolute;
   left:25px;
